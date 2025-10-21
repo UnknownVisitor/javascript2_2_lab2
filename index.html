@@ -1,19 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <div>
-      <button id="example">example</button>
-      <button id="cw1">cw1</button>
-      <button id="cw2">cw2</button>
-      <button id="cw3">cw3</button>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>repl.it</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div>
+    <button id="example">example</button>
+    <button id="cw1">cw1</button>
+    <button id="cw2">cw2</button>
+    <button id="cw3">cw3</button>
+  </div>
+  <div id="answer" class="content-area">
+  </div>
+
+  <div id="loading-overlay">
+    <div id="loading-box">
+      <h1>Loading...</h1>
+      <div class="spinner"></div>
     </div>
-    <div id="answer" class="content-area"></div>
-    <script src="script.js"></script>
-  </body>
+  </div>
+  <script src="script.js"></script>
+</body>
+
 </html>
